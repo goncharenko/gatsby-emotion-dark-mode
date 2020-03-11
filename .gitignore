@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+yarn-error.log
+package-lock.json
+
+*.idea
+
+*.d.ts
+*.d.ts.map
+*.js
+*.js.*
+
+© 2020 GitHub, Inc.

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "es6"],
+    "jsx": "react",
+    "strict": true,
+    "noEmit": false,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": false,
+    "outDir": ".",
+    "skipLibCheck": true
+  },
+  "include": ["./src/*"],
+  "exclude": ["./node_modules/"]
+}
