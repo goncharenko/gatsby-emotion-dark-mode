@@ -7,7 +7,6 @@ package-lock.json
 
 *.d.ts
 *.d.ts.map
-*.js
 *.js.*
 
 © 2020 GitHub, Inc.
