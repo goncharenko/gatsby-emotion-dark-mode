@@ -97,11 +97,7 @@ export const Layout = (props) => {
     return (
         <div>
             <label>
-                <input
-                    type="checkbox"
-                    onChange={() => theme.toggleDark()}
-                    checked={theme.isDark}
-                />{' '}
+                <input type="checkbox" onChange={() => theme.toggleDark()} checked={theme.isDark} />
                 Dark mode
             </label>
         </div>
