@@ -4,25 +4,25 @@ import { EmotionThemeProvider } from './emotion-theme-provider';
 import { ThemeManagerProvider } from './theme-manager';
 
 interface ThemeConfigProps {
-  dark?: object;
-  light?: object;
+    dark?: object;
+    light?: object;
 }
 
 interface GatsbyRootProps {
-  element: ReactNode;
+    element: ReactNode;
 }
 
 export const wrapRootElement = (
-  gatsbyRootProps: GatsbyRootProps,
-  themeProps: ThemeConfigProps,
+    gatsbyRootProps: GatsbyRootProps,
+    themeProps: ThemeConfigProps,
 ) => {
-  const { dark = {}, light = {} } = themeProps;
+    const { dark = {}, light = {} } = themeProps;
 
-  return (
-    <ThemeManagerProvider>
-      <EmotionThemeProvider lightTheme={light} darkTheme={dark}>
-        {gatsbyRootProps.element}
-      </EmotionThemeProvider>
-    </ThemeManagerProvider>
-  );
+    return (
+        <ThemeManagerProvider>
+            <EmotionThemeProvider lightTheme={light} darkTheme={dark}>
+                {gatsbyRootProps.element}
+            </EmotionThemeProvider>
+        </ThemeManagerProvider>
+    );
 };

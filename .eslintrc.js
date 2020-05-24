@@ -22,9 +22,9 @@ module.exports = {
     },
     env: {
         browser: true,
-        node: true
+        node: true,
     },
     rules: {
-        '@typescript-eslint/explicit-function-return-type': 'off'
+        '@typescript-eslint/explicit-function-return-type': 'off',
     },
 };
