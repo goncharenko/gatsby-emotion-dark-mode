@@ -77,12 +77,10 @@ The plugin exposes this functionality through `ThemeManagerContext`
 
 Consuming the context will get you access to
 
-| prop               | type                            | description                                                               |
-| ------------------ | ------------------------------- | ------------------------------------------------------------------------- |
-| isDark             | boolean                         | state that describes if your app is in dark mode or not                   |
-| toggleDark         | (value?: boolean) => void       | function that toggles dark/light mode                                     |
-| themeSetting       | ThemeSetting                    | the current theme setting - either LIGHT, DARK or SYSTEM                  |
-| changeThemeSetting | (setting: ThemeSetting) => void | function that allows setting dark mode, light mode or system-setting mode |
+| prop       | type                      | description                                             |
+| ---------- | ------------------------- | ------------------------------------------------------- |
+| isDark     | boolean                   | state that describes if your app is in dark mode or not |
+| toggleDark | (value?: boolean) => void | function that toggles dark/light mode                   |
 
 #### Example - light/dark mode toggle
 
@@ -97,7 +95,11 @@ export const Layout = (props) => {
     return (
         <div>
             <label>
-                <input type="checkbox" onChange={() => theme.toggleDark()} checked={theme.isDark} />
+                <input
+                    type="checkbox"
+                    onChange={() => theme.toggleDark()}
+                    checked={theme.isDark}
+                />
                 Dark mode
             </label>
         </div>
