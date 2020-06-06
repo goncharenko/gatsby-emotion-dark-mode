@@ -1,5 +1,3 @@
-![David](https://img.shields.io/david/dev/goncharenko/gatsby-emotion-dark-mode)
-
 # Gatsby Emotion Dark Mode
 
 A Gatsby plugin for toggling dark mode and injecting themes using emotion.
