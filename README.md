@@ -1,6 +1,6 @@
-![David](https://img.shields.io/david/dev/goncharenko/gatsby-emotion-dark-mode)
-![npm](https://img.shields.io/npm/v/gatsby-emotion-dark-mode)
-![GitHub](https://img.shields.io/github/license/goncharenko/gatsby-emotion-dark-mode)
+[![David](https://img.shields.io/david/dev/goncharenko/gatsby-emotion-dark-mode)](https://github.com/goncharenko/gatsby-emotion-dark-mode)
+[![npm](https://img.shields.io/npm/v/gatsby-emotion-dark-mode)](https://www.npmjs.com/package/gatsby-emotion-dark-mode)
+[![GitHub](https://img.shields.io/github/license/goncharenko/gatsby-emotion-dark-mode)](https://github.com/goncharenko/gatsby-emotion-dark-mode/blob/master/LICENSE)
 
 # Gatsby Emotion Dark Mode
 
