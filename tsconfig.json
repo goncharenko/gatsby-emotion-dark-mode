@@ -1,18 +1,18 @@
 {
-  "compilerOptions": {
-    "target": "es5",
-    "lib": ["dom", "es6"],
-    "jsx": "react",
-    "strict": true,
-    "noEmit": false,
-    "isolatedModules": true,
-    "esModuleInterop": true,
-    "noUnusedLocals": false,
-    "outDir": ".",
-    "skipLibCheck": true,
-    "declaration": true,
-    "declarationDir": "."
-  },
-  "include": ["./src/*"],
-  "exclude": ["./node_modules/"]
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["dom", "es6"],
+      "jsx": "react",
+      "strict": true,
+      "noEmit": false,
+      "isolatedModules": true,
+      "esModuleInterop": true,
+      "noUnusedLocals": false,
+      "outDir": ".",
+      "skipLibCheck": true,
+      "declaration": true,
+      "declarationDir": "."
+    },
+    "include": ["./src/*"],
+    "exclude": ["./node_modules/"]
 }

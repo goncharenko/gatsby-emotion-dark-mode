@@ -1,7 +1,7 @@
 import React, { createContext, useEffect, useState, ReactNode } from 'react';
 
 interface Props {
-    children: ReactNode;
+    children?: ReactNode;
 }
 
 interface ThemeManager {
@@ -20,7 +20,7 @@ export const ThemeManagerContext = createContext(defaultState);
 const supportsDarkMode = () =>
     window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-export const ThemeManagerProvider: React.FC<Props> = (props: Props) => {
+export const ThemeManagerProvider = (props: Props) => {
     const [isDark, setIsDark] = useState(false);
 
     const toggleDark = (value?: boolean) => {

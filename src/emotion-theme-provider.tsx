@@ -1,11 +1,11 @@
 import React, { ReactNode, useContext } from 'react';
 
-import { ThemeProvider } from 'emotion-theming';
+import { ThemeProvider } from '@emotion/react';
 
 import { ThemeManagerContext } from './theme-manager';
 
 interface Props {
-    children: ReactNode;
+    children?: ReactNode;
     darkTheme: object;
     lightTheme: object;
 }
