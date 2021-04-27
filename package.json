@@ -25,9 +25,9 @@
     "license": "MIT",
     "typings": "index.d.ts",
     "peerDependencies": {
-        "@emotion/react": "^11.0.0",
-        "react": "^16.0.0 || ^17.0.0",
-        "react-dom": "^16.0.0 || ^17.0.0"
+        "@emotion/react": "^11",
+        "react": "^16 || ^17",
+        "react-dom": "^16 || ^17"
     },
     "devDependencies": {
         "@types/node": "^14.14.30",
